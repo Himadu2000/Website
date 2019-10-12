@@ -21,7 +21,7 @@ import User from "./components/General/User/Authentication";
 
 const Routes = () => {
   return (
-    <>
+    <div>
       <Navbar />
       <Alerts />
       <Switch>
@@ -42,7 +42,7 @@ const Routes = () => {
         <Route component={Errorpage} />
       </Switch>
       <Footer />
-    </>
+    </div>
   );
 };
 

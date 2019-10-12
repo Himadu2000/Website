@@ -7,8 +7,27 @@ import { MDBContainer } from "mdbreact";
 import Quotes from "./components/Quote/Quotes";
 import QuoteCard from "./components/Quote/QuoteCard";
 import Alert from "./components/Alert";
+import flamelink from "flamelink";
+import firebase from "firebase";
+
+const firebaseApp = firebase;
+
+const app = flamelink({
+  firebaseApp,
+  env: "production", // optional, defaults to `production`
+  locale: "en-US", // optional, defaults to `en-US`
+  dbType: "cf" // optional, defaults to `rtdb` - can be 'rtdb' or 'cf' (Realtime DB vs Cloud Firestore)
+});
 
 class Homepage extends Component {
+  async componentDidMount() {
+    try {
+      const products = await app.content.get({ schemaKey: "articles" });
+      console.log("All of your products:", products);
+    } catch (error) {
+      console.log(error);
+    }
+  }
   render() {
     return (
       <Router>

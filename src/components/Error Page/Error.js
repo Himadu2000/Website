@@ -10,7 +10,7 @@ import {
 } from "mdbreact";
 import BackgroundImage from "./../../assets/Gradient.svg";
 
-const JumbotronPage = () => {
+const ErrorPage = () => {
   return (
     <MDBContainer>
       <MDBRow>
@@ -46,4 +46,4 @@ const JumbotronPage = () => {
   );
 };
 
-export default JumbotronPage;
+export default ErrorPage;

@@ -14,9 +14,8 @@ const AlertPage = () => {
       </MDBAlert>
       <center>
         <MDBBtn href='https://fir-32d38.web.app/'>
-          Chat (Important feature) please check. Note for Administrator... Check
-          on Download and Navigation Pages.... Delete this when done...
-          (Comments)
+          Chat (Important feature) please check. Note for Administrator.. Check
+          Navigation Pages.... Delete (Comments)
         </MDBBtn>
       </center>
 
@@ -24,14 +23,12 @@ const AlertPage = () => {
         <MDBAlert color='primary' className='Margin'>
           <center>
             We have a login check it out! from above{" "}
-            <MDBIcon icon='sign-in-alt' /> {""}
-            and a Downloads Page.
+            <MDBIcon icon='sign-in-alt' /> and a Downloads Page.
           </center>
         </MDBAlert>
         <MDBAlert color='success' className='Margin'>
           <center>
-            Do you want a website <MDBIcon fab icon='internet-explorer' /> {""}
-            Contact Me.
+            Do you want a website <MDBIcon icon='file-alt' /> Contact Me.
           </center>
         </MDBAlert>
       </MDBContainer>

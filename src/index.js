@@ -1,23 +1,18 @@
-import './index.css';
-import * as serviceWorker from './serviceWorker';
-
-//Old
-
-// Firebase App (the core Firebase SDK) is always required and must be listed first
-import * as firebase from "firebase/app";
-
-// Add the Firebase products that you want to use
-import "firebase/auth";
-import "firebase/firestore";
 import React from "react";
 import ReactDOM from "react-dom";
+import "./index.css";
+import * as serviceWorker from "./serviceWorker";
+import firebase from "firebase";
+import flamelink from "flamelink";
+
+import { Router } from "react-router-dom";
+import Routes from "./Routes";
+//Other
+
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "bootstrap-css-only/css/bootstrap.min.css";
 import "mdbreact/dist/css/mdb.css";
 import "./components/IndexJS Files/index.css";
-import { Router } from "react-router-dom";
-import registerServiceWorker from "./components/IndexJS Files/registerServiceWorker";
-import Routes from "./Routes";
 
 const history = require("history").createBrowserHistory();
 
@@ -28,10 +23,25 @@ const firebaseConfig = {
   projectId: "fir-32d38",
   storageBucket: "fir-32d38.appspot.com",
   messagingSenderId: "785847414044",
-  appId: "1:785847414044:web:1a7589d76c9ae57f969ed9"
+  appId: "1:785847414044:web:1a7589d76c9ae57f969ed9",
+  measurementId: "G-XVZXW5QXM6"
 };
 
-firebase.initializeApp(firebaseConfig);
+const firebaseApp = firebase.initializeApp(firebaseConfig);
+
+const app = flamelink({
+  firebaseApp,
+  env: "production", // optional, defaults to `production`
+  locale: "en-US", // optional, defaults to `en-US`
+  dbType: "cf" // optional, defaults to `rtdb` - can be 'rtdb' or 'cf' (Realtime DB vs Cloud Firestore)
+});
+
+// Initialize Performance Monitoring and get a reference to the service
+const perf = firebase.performance();
+
+var db = firebase.firestore();
+
+console.log(firebase);
 
 ReactDOM.render(
   <Router history={history}>
@@ -39,10 +49,6 @@ ReactDOM.render(
   </Router>,
   document.getElementById("root")
 );
-
-registerServiceWorker();
-
-//Old
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
