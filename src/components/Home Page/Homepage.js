@@ -5,7 +5,7 @@ import Comment from "./components//Comment/Comment";
 import AddComment from "./components/Comment/AddComment";
 import { MDBContainer } from "mdbreact";
 import Quotes from "./components/Quote/Quotes";
-import QuoteCard from "./components/Quote/QuoteCard";
+// import QuoteCard from "./components/Quote/QuoteCard";
 import Alert from "./components/Alert";
 import flamelink from "flamelink";
 import firebase from "firebase";
@@ -32,7 +32,7 @@ class Homepage extends Component {
     return (
       <Router>
         <div>
-          <QuoteCard />
+        {/** <QuoteCard /> */}
           <Quotes />
           <Carousel />
           <Alert />

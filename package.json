@@ -1,7 +1,19 @@
 {
   "name": "himadu",
   "version": "1.0.0",
+  "auther": {
+    "name": "Himadu Sirimanna",
+    "email": "himadusirimanna.1@gmail.com",
+    "url": "http://himadusirimannax.dx.am/"
+  },
+  "homepage": "https://himadusirimannax.dx.am",
+  "repository": "github:Himadu2000/Website",
+  "bugs": {
+    "url": "https://github.com/Himadu2000/Website/issues",
+    "email": "himadusirimanna.1@gmail.com"
+  },
   "private": false,
+  "license": "(GPL-3.0)",
   "dependencies": {
     "firebase": "^7.2.0",
     "firebaseui": "^4.2.0",

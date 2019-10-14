@@ -18,6 +18,7 @@ import Log from "./components/General/Log/Log";
 import SignIn from "./components/General/Sign In/Signin";
 import SignUp from "./components/General/Sign Up/Signup";
 import User from "./components/General/User/Authentication";
+// import Admin from "./components/Admin/Admin";
 
 const Routes = () => {
   return (
@@ -39,6 +40,7 @@ const Routes = () => {
         <Route path='/SignIn' component={SignIn} />
         <Route path='/SignUp' component={SignUp} />
         <Route path='/User' component={User} />
+        {/** <Route path='/Admin' component={Admin} /> */}
         <Route component={Errorpage} />
       </Switch>
       <Footer />
