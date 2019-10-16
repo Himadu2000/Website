@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import {
   MDBRow,
   MDBCol,
@@ -10,6 +10,31 @@ import {
   MDBContainer
 } from "mdbreact";
 
+import flamelink from "flamelink";
+import firebase from "firebase";
+/*
+const firebaseApp = firebase;
+
+const app = flamelink({
+  firebaseApp,
+  env: "production", // optional, defaults to `production`
+  locale: "en-US", // optional, defaults to `en-US`
+  dbType: "cf" // optional, defaults to `rtdb` - can be 'rtdb' or 'cf' (Realtime DB vs Cloud Firestore)
+});
+
+var db = firebase.firestore();
+{
+ app.content.add({
+  schemaKey: "contactUs",
+  data: {
+    name: "Dog",
+    email: "himadusirimanna.1@gmail.com",
+    phone: "0761081203",
+    company: "Dog",
+    message: "Message"
+  }
+}); 
+*/
 class Form extends React.Component {
   constructor(props) {
     super(props);
