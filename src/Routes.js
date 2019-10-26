@@ -8,7 +8,7 @@ import Contact from "./components/Contact/Contact";
 import TC from "./components/General/TC/TC";
 import PP from "./components/General/PP/PP";
 import Errorpage from "./components/Error Page/Error";
-import About from "./components/About/components/Progress.js";
+import About from "./components/About/About";
 import Downloads from "./components/Downloads/Downloads";
 import Alerts from "./components/Alerts/Alerts";
 import Article from "./components/Articles/Article";

@@ -1,6 +1,6 @@
 import React from "react";
 
-const Typography = () => (
+const AboutMe = () => (
   <>
     <p>
       <abbr title='attribute'>attr</abbr>
@@ -30,4 +30,4 @@ const Typography = () => (
   </>
 );
 
-export default Typography;
+export default AboutMe;

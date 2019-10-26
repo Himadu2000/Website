@@ -8,11 +8,11 @@ import flamelink from "flamelink";
 import { Router } from "react-router-dom";
 import Routes from "./Routes";
 //Other
+import "./components/IndexJS Files/index.css";
 
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "bootstrap-css-only/css/bootstrap.min.css";
 import "mdbreact/dist/css/mdb.css";
-import "./components/IndexJS Files/index.css";
 
 const history = require("history").createBrowserHistory();
 

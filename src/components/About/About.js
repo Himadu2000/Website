@@ -1,17 +1,24 @@
-import React, { Component } from "react";
+import React from "react";
 import Aboutme from "./components/Aboutme";
 import Progress from "./components/Progress";
 import Thanks from "./components/Thanksgiving";
+import Donate from "./components/Donate";
+import HelpUs from "./components/HelpUs";
+import JoinUs from "./components/JoinUs";
+import YourSkill from "./components/YourSkill";
 
-class About extends Component {
-  render() {
-    return (
-      <div>
-        <Aboutme />
-        <Progress />
-        <Thanks />
-      </div>
-    );
-  }
-}
+const About = () => {
+  return (
+    <div>
+      <Aboutme />
+      <Donate />
+      <HelpUs />
+      <JoinUs />
+      <YourSkill />
+      <Progress />
+      <Thanks />
+    </div>
+  );
+};
+
 export default About;
