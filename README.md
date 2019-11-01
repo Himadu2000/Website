@@ -1,68 +1,53 @@
+# Ionic React Conference App
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+This is an example react conference app using @ionic/react.
 
-In the project directory, you can run:
+You can see a live demo here. (https://ionic-react-conference-app.firebaseapp.com/)
 
-### `yarn start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Publishing a Native Application
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+You can now make use of all of the ionic components in your React application.
+If you want to publish your app to the App Store or Google Play you will need to use the ionic cli to execute Capacitor commands to do so.
 
-### `yarn test`
+More information on this can be found here. https://beta.ionicframework.com/docs/cli
+If you want to learn more about Capacitor our dedicated site can be found here. https://capacitor.ionicframework.com/
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The commands that you will need to execute are below in your project's root.
+```sh
+ionic init "My React App" --type=custom
+ionic integrations enable capacitor
+```
 
-### `yarn build`
+Open the './capacitor.config.json' file in your projects root.
+Change `"webDir": "www"` to be `"webDir": "build"` (dependent on your config but create-react-app defaults with this as the build directory)
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Then run the following command to get started with either `ios` or `android` platforms.
+```
+ionic capacitor add <android|ios>
+```
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+After build you build your app you will need to copy your capacitor resources into the build dir so execute the following command.
+```
+ionic capacitor copy
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To open your application to build/emulate in Android Studio or Xcode run the `open` command.
+```
+ionic capacitor open <android|ios>
+```
 
-### `yarn eject`
+## Related
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+* [Ionic Documentation](https://ionicframework.com/docs/)
+* [Ionic Worldwide Slack](http://ionicworldwide.herokuapp.com/)
+* [Ionic Forum](https://forum.ionicframework.com/)
+* [Ionicons](http://ionicons.com/)
+* [Capacitor](https://capacitor.ionicframework.com/)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## License
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+* [MIT](https://raw.githubusercontent.com/ionic-team/ionic/master/LICENSE)
