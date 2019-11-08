@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5abb344b.chunk.css",
+    "main.js": "/static/js/main.a50fa595.chunk.js",
+    "main.js.map": "/static/js/main.a50fa595.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.5f282615.js",
+    "runtime-main.js.map": "/static/js/runtime-main.5f282615.js.map",
+    "static/css/2.3ca706fb.chunk.css": "/static/css/2.3ca706fb.chunk.css",
+    "static/js/2.8f55df8e.chunk.js": "/static/js/2.8f55df8e.chunk.js",
+    "static/js/2.8f55df8e.chunk.js.map": "/static/js/2.8f55df8e.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.95e7489fa39b5e6764a28874e9f1085a.js": "/precache-manifest.95e7489fa39b5e6764a28874e9f1085a.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.3ca706fb.chunk.css.map": "/static/css/2.3ca706fb.chunk.css.map",
+    "static/css/main.5abb344b.chunk.css.map": "/static/css/main.5abb344b.chunk.css.map",
+    "static/media/Gradient.svg": "/static/media/Gradient.55742476.svg",
+    "static/media/mdb.css": "/static/media/arrow_right.8ef6a08c.svg",
+    "static/media/all.min.css": "/static/media/fa-solid-900.c2801fb4.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5f282615.js",
+    "static/css/2.3ca706fb.chunk.css",
+    "static/js/2.8f55df8e.chunk.js",
+    "static/css/main.5abb344b.chunk.css",
+    "static/js/main.a50fa595.chunk.js"
+  ]
+}

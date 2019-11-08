@@ -13,11 +13,6 @@
     "noEmit": true,
     "jsx": "preserve",
     "isolatedModules": true,
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ]
   },
   "include": [
     "src"

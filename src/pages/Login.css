@@ -9,3 +9,12 @@
 .list {
   margin-bottom: 0;
 }
+img{align-content: center;
+max-width: 15%;}
+*{align-content: center;}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+

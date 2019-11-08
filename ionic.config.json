@@ -1,8 +1,7 @@
 {
-  "name": "himadu",
+  "name": "ionic-react-conference-app",
+  "type": "react",
   "integrations": {
     "cordova": {}
-  },
-  "type": "react",
-  "id": "8bd0fe6c"
+  }
 }

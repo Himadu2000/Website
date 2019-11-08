@@ -30,29 +30,16 @@ import { RootState } from "../store";
 
 const routes = {
   appPages: [
-    { title: "Schedule", path: "/", icon: calendar },
-    { title: "Daily Images", path: "/Images", icon: calendar },
-    { title: "Speakers", path: "/speakers", icon: contacts },
+    { title: "Calender", path: "/", icon: calendar },
+    { title: "Blog", path: "/blog", icon: contacts },
     { title: "Map", path: "/map", icon: map },
     { title: "About", path: "/about", icon: informationCircle },
-    { title: "Footer", path: "/footer", icon: calendar },
-    { title: "Downloads", path: "/downloads", icon: calendar },
-    { title: "Articles", path: "/articles", icon: calendar },
-    { title: "Alerts", path: "/alerts", icon: calendar },
-    { title: "Blog", path: "/blog", icon: calendar },
-    { title: "Home", path: "/home", icon: calendar },
-    { title: "Comments", path: "/comments", icon: calendar },
-    { title: "Contacts", path: "/contacts", icon: calendar },
-    { title: "News", path: "/news", icon: calendar },
-    { title: "Privacy", path: "/privacy", icon: calendar },
-    { title: "Log", path: "/log", icon: calendar },
-    { title: "Terns", path: "/terms", icon: calendar }
+    { title: "Daily Image", path: "/image", icon: contacts }
   ],
   loggedInPages: [
     { title: "Account", path: "/account", icon: person },
     { title: "Support", path: "/support", icon: help },
-    { title: "Logout", path: "/logout", icon: logOut },
-    { title: "Chat", path: "/chat", icon: logOut }
+    { title: "Logout", path: "/logout", icon: logOut }
   ],
   loggedOutPages: [
     { title: "Login", path: "/login", icon: logIn },
@@ -95,13 +82,13 @@ const Menu: React.SFC<Props> = ({ isAuthenticated, history }) => {
             ? renderlistItems(routes.loggedOutPages)
             : renderlistItems(routes.loggedInPages)}
         </IonList>
-        <IonList>
+        {/** <IonList>
           <IonListHeader>Tutorial</IonListHeader>
           <IonItem onClick={() => {}}>
             <IonIcon slot='start' icon={hammer} />
             Show Tutorial
           </IonItem>
-        </IonList>
+        </IonList> */}
       </IonContent>
     </IonMenu>
   );
