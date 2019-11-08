@@ -1,19 +1,7 @@
 {
-  "name": "himadu",
-  "version": "1.0.0",
-  "private": false,
-  "auther": {
-    "name": "Himadu Sirimanna",
-    "email": "himadusirimanna.1@gmail.com",
-    "url": "https://himadu.me/"
-  },
-  "homepage": "https://himadu.me",
-  "repository": "github:Himadu2000/Website",
-  "bugs": {
-    "url": "https://github.com/Himadu2000/Website/issues",
-    "email": "himadusirimanna.1@gmail.com"
-  },
-  "license": "(GPL-3.0)",
+  "name": "my-ionic-app",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
     "@ionic/react": "0.0.6",
     "@types/googlemaps": "^3.30.16",
@@ -34,13 +22,7 @@
     "react-scripts": "2.1.1",
     "redux": "^4.0.1",
     "typesafe-actions": "^2.0.4",
-    "typescript": "3.1.6",
-    "mdbreact": "^4.21.1",
-    "firebase": "^7.2.0",
-    "firebaseui": "^4.2.0",
-    "flamelink": "^1.0.0-alpha.26",
-    "react-bootstrap": "^1.0.0-beta.14",
-    "react-search-box": "^2.0.1"
+    "typescript": "3.1.6"
   },
   "scripts": {
     "start": "react-scripts start",
