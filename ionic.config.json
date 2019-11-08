@@ -1,7 +1,8 @@
 {
   "name": "himadu",
   "integrations": {
-    "cordova": {}
+    "cordova": {},
+    "capacitor": {}
   },
   "type": "react",
   "id": "8bd0fe6c"
