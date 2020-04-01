@@ -1,10 +1,26 @@
 {
   "name": "himadu",
   "version": "1.0.0",
+  "dependencies": {
+=======
+  "auther": {
+    "name": "Himadu Sirimanna",
+    "email": "himadusirimanna.1@gmail.com",
+    "url": "http://himadusirimannax.dx.am/"
+  },
+  "homepage": "https://himadusirimannax.dx.am",
+  "repository": "github:Himadu2000/Website",
+  "bugs": {
+    "url": "https://github.com/Himadu2000/Website/issues",
+    "email": "himadusirimanna.1@gmail.com"
+  },
   "private": false,
+  "license": "(GPL-3.0)",
   "dependencies": {
     "@capacitor/android": "^1.3.0",
-    "@capacitor/core": "1.3.0",
+    "@capacitor/cli": "^1.3.0",
+    "@capacitor/core": "^1.3.0",
+    "@capacitor/android": "^1.3.0",
     "@capacitor/electron": "^1.3.0",
     "@capacitor/ios": "^1.3.0",
     "@ionic/react": "0.0.6",

@@ -1,6 +1,6 @@
 {
-  "name": "Himadu",
-  "short_name": "Himadu",
+  "name": "Ionic Conference",
+  "short_name": "Ionic Conf",
   "start_url": "/schedule",
   "display": "standalone",
   "icons": [{

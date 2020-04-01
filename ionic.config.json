@@ -1,5 +1,6 @@
 {
-  "name": "himadu",
+  "name": "himadu's app",
+  "type": "react",
   "integrations": {
     "cordova": {},
     "capacitor": {}
