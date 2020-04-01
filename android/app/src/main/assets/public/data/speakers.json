@@ -1,0 +1,19 @@
+[{
+  "id": 1,
+  "name": "Welcome",
+  "profilePic": "/assets/img/speakers/bear.jpg",
+  "twitter": "ionicframework",
+  "about": "How are you I'm Himadu and welcome to my personal site. Here I have game rewiwes to see.",
+  "location": "Everywhere",
+  "email": "himadusirimanna.1@gmail.com",
+  "phone": "+1-541-754-3010"
+}, {
+  "id": 2,
+  "name": "Game 1",
+  "profilePic": "/assets/img/speakers/cheetah.jpg",
+  "twitter": "ionicframework",
+  "about": "Charlie is a Cheetah.",
+  "location": "Everywhere",
+  "email": "cat@empty.com",
+  "phone": "+1-541-754-3010"
+}]

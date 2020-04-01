@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "785847414044",
+    "firebase_url": "https://fir-32d38.firebaseio.com",
+    "project_id": "fir-32d38",
+    "storage_bucket": "fir-32d38.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:785847414044:android:d8da8118abe69075969ed9",
+        "android_client_info": {
+          "package_name": "com.dog.himadu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "785847414044-q4kfb8vk70lbkve1uj73g2b4ht70uf54.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAR0RjqO5rE5gvG0ffqcrZbl5kFyfKjBTE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "785847414044-q4kfb8vk70lbkve1uj73g2b4ht70uf54.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:785847414044:android:05b142ab88aec7ef969ed9",
+        "android_client_info": {
+          "package_name": "com.dogcompany.himadu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "785847414044-q4kfb8vk70lbkve1uj73g2b4ht70uf54.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAR0RjqO5rE5gvG0ffqcrZbl5kFyfKjBTE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "785847414044-q4kfb8vk70lbkve1uj73g2b4ht70uf54.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
