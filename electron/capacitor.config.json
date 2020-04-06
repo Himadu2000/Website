@@ -1,8 +1,0 @@
-{
-  "appId": "com.dog.himadu",
-  "appName": "Himadu",
-  "bundledWebRuntime": false,
-  "npmClient": "yarn",
-  "webDir": "build",
-  "cordova": {}
-}

@@ -1,7 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources>
-    <string name="app_name">Himadu</string>
-    <string name="title_activity_main">Himadu</string>
-    <string name="package_name">com.dog.himadu</string>
-    <string name="custom_url_scheme">com.dog.himadu</string>
-</resources>
