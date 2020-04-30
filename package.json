@@ -19,7 +19,7 @@
     "gatsby-source-filesystem": "^2.1.56",
     "gatsby-source-flamelink": "^3.0.0-alpha.3",
     "gatsby-theme-firebase": "^1.0.8",
-    "gatsby-transformer-sharp": "^2.3.19",
+    "gatsby-transformer-sharp": "^2.5.0",
     "mdbreact": "^4.25.5",
     "node-sass": "^4.13.1",
     "prop-types": "^15.7.2",
