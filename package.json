@@ -30,7 +30,7 @@
   "devDependencies": {
     "cross-env": "^7.0.2",
     "dotenv": "^8.2.0",
-    "firebase-tools": "^7.16.2",
+    "firebase-tools": "^8.2.0",
     "prettier": "^1.19.1"
   },
   "keywords": [
