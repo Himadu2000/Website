@@ -19,7 +19,7 @@ const QuoteCard = () => {
     fetch("https://my-json-server.typicode.com/Himadu2000/data/db")
       .then(res => res.json())
       .then(result => {
-        setIsLoaded: true
+        setIsLoaded(true)
         setPersons(result.data1.persons)
       })
       .catch(error => setError(error))
