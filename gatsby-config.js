@@ -1,14 +1,14 @@
 if (!process.env.GITHUB_ACTION) {
   require("dotenv").config()
 }
-const parseNewLines = function(key) {
+const parseNewLines = key => {
   return typeof key === "string" ? key.replace(/\\n/g, "\n") : key
 }
 const privateKey = parseNewLines(process.env.FIREBASE_CONFIG_PRIVATE_KEY)
 module.exports = {
   siteMetadata: {
-    title: `Himadu Sirimanna`,
-    description: `Himadu Sirimanna's Website.`,
+    title: `Himadu's Website`,
+    description: `Himadu Sirimannna personal website.`,
     author: `@himadu`,
     siteUrl: `https://www.himadu.me`,
   },
@@ -26,8 +26,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Himadu Sirimanna`,
-        short_name: `Himadu`,
+        name: `Himadu's Website`,
+        short_name: `himadu`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
@@ -54,46 +54,36 @@ module.exports = {
         showSpinner: true,
       },
     },
-    // typescript
-    {
-      resolve: `gatsby-plugin-typescript`,
-      options: {
-        isTSX: true, // defaults to false
-        jsxPragma: `React`, // was jsx defaults to "React"
-        allExtensions: true, // defaults to false
-      },
-    },
     // firebase theme
     {
       resolve: "gatsby-theme-firebase",
       options: {
         credentials: {
-          apiKey: "AIzaSyAgkfWxahbDS8goMk1dnvpeCEpFqUrZvoo",
-          authDomain: "ansi-68e9a.firebaseapp.com",
-          databaseURL: "https://ansi-68e9a.firebaseio.com",
-          projectId: "ansi-68e9a",
-          storageBucket: "ansi-68e9a.appspot.com",
-          messagingSenderId: "597113660855",
-          appId: "1:597113660855:web:52ff5ab6391e13e2717432",
-          measurementId: "G-H9B39JD4S2",
+          apiKey: "AIzaSyDrQEupm_MrUm1eXRHVL6SJ6fHyS89Yxak",
+          authDomain: "fir-32d38.firebaseapp.com",
+          databaseURL: "https://fir-32d38.firebaseio.com",
+          projectId: "fir-32d38",
+          storageBucket: "fir-32d38.appspot.com",
+          messagingSenderId: "785847414044",
+          appId: "1:785847414044:web:1a7589d76c9ae57f969ed9",
+          measurementId: "G-XVZXW5QXM6",
         },
         loginPath: "/user/login",
         loginRedirectPath: "/contact",
         socialLogins: ["google"],
       },
     },
-
     // flamelink
     {
       resolve: "gatsby-source-flamelink",
       options: {
         firebaseConfig: {
-          projectId: "ansi-68e9a",
+          projectId: "fir-32d38",
           clientEmail:
-            "firebase-adminsdk-eeooa@ansi-68e9a.iam.gserviceaccount.com",
+            "firebase-adminsdk-a1ck8@fir-32d38.iam.gserviceaccount.com",
           privateKey: privateKey,
-          databaseURL: "https://ansi-68e9a.firebaseio.com",
-          storageBucket: "ansi-68e9a.appspot.com",
+          databaseURL: "https://fir-32d38.firebaseio.com",
+          storageBucket: "fir-32d38.appspot.com",
         },
         dbType: "cf",
         environment: "production",

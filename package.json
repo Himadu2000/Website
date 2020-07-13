@@ -1,62 +1,57 @@
 {
-  "name": "ansi-global",
-  "private": false,
-  "description": "ANSI Global Website",
+  "name": "my-website",
+  "private": true,
+  "description": "This is my website.",
   "version": "0.1.0",
-  "author": "Himadu Sirimanna <himadusirimanna.1@gmail.com>",
+  "author": "Himadu Sirimanna",
   "dependencies": {
-    "gatsby": "^2.21.5",
-    "gatsby-image": "^2.4.2",
-    "gatsby-plugin-manifest": "^2.2.48",
-    "gatsby-plugin-nprogress": "^2.2.1",
-    "gatsby-plugin-offline": "^3.1.2",
-    "gatsby-plugin-react-helmet": "^3.1.24",
-    "gatsby-plugin-robots-txt": "^1.5.0",
-    "gatsby-plugin-sass": "^2.3.0",
-    "gatsby-plugin-sharp": "^2.6.0",
-    "gatsby-plugin-sitemap": "^2.4.0",
-    "gatsby-plugin-typescript": "^2.4.0",
-    "gatsby-source-filesystem": "^2.1.56",
-    "gatsby-source-flamelink": "^3.0.0-alpha.3",
-    "gatsby-theme-firebase": "^1.0.8",
-    "gatsby-transformer-sharp": "^2.5.0",
-    "mdbreact": "^4.26.0",
-    "node-sass": "^4.14.0",
+    "gatsby": "^2.23.12",
+    "gatsby-image": "^2.4.9",
+    "gatsby-plugin-manifest": "^2.4.14",
+    "gatsby-plugin-nprogress": "^2.3.8",
+    "gatsby-plugin-offline": "^3.2.15",
+    "gatsby-plugin-react-helmet": "^3.3.6",
+    "gatsby-plugin-robots-txt": "^1.5.1",
+    "gatsby-plugin-sass": "^2.3.9",
+    "gatsby-plugin-sharp": "^2.6.14",
+    "gatsby-plugin-sitemap": "^2.4.9",
+    "gatsby-source-filesystem": "^2.3.14",
+    "gatsby-source-flamelink": "^3.0.0-alpha.5",
+    "gatsby-theme-firebase": "^1.0.10",
+    "gatsby-transformer-sharp": "^2.5.7",
+    "mdbreact": "^4.27.0",
+    "node-sass": "^4.14.1",
     "prop-types": "^15.7.2",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.0",
-    "react-helmet": "^5.2.1"
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^6.1.0"
   },
   "devDependencies": {
     "cross-env": "^7.0.2",
     "dotenv": "^8.2.0",
-    "firebase-tools": "^7.16.2",
-    "prettier": "^1.19.1"
+    "prettier": "2.0.5"
   },
   "keywords": [
-    "ANSIGlobal"
+    "gatsby",
+    "himadu",
+    "sirimanna"
   ],
-  "license": "GPL-3.0-or-later",
-  "homepage": "/",
+  "license": "Unlicense",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "deploy": "gatsby clean && gatsby build && firebase deploy && gatsby clean"
   },
   "repository": {
-    "directory": "ANSI",
-    "type": "typescript",
-    "url": "https://github.com/Himadu2000/ANSI"
+    "type": "git",
+    "url": "https://github.com/Himadu2000/Website"
   },
   "bugs": {
-    "email": "himadusirimanna.1@gmail.com",
-    "url": "https://github.com/Himadu2000/ANSI"
-  },
-  "maintainers": [
-    "Himadu Sirimanna"
-  ]
+    "url": "https://github.com/Himadu2000/Website/issues"
+  }
 }
