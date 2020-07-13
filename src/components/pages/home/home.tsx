@@ -1,11 +1,11 @@
 import { MDBContainer } from "mdbreact"
 import React from "react"
-// import QuoteCard from "./components/Quote/QuoteCard";
-import Alert from "./components/Alert"
-import Carousel from "./components/Carousel"
-import AddComment from "./components/Comment/AddComment"
-import Comment from "./components/Comment/Comment"
+import Alert from "./components/alert"
+import Carousel from "./components/carousel"
+import AddComment from "./components/Comment/addComment"
+import Comment from "./components/Comment/comment"
 import Quotes from "./components/Quote/Quotes"
+// import QuoteCard from "./components/Quote/QuoteCard";
 
 const Homepage = () => (
   <>
