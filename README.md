@@ -54,7 +54,7 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
     ├── gatsby-node.js
     ├── gatsby-ssr.js
     ├── LICENSE
-    ├── package-lock.json
+    ├── yarn.lock
     ├── package.json
     └── README.md
 
