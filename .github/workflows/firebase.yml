@@ -34,7 +34,7 @@ jobs:
       - name: Firebase GitHub Action
         uses: pizzafox/firebase-action@1.0.7
         env:
-          PROJECT_ID: "ansi-68e9a"
+          PROJECT_ID: "fir-32d38"
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
         with:
           args: deploy
