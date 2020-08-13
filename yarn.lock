@@ -7711,10 +7711,10 @@ gatsby-source-filesystem@^2.3.24:
     valid-url "^1.0.9"
     xstate "^4.11.0"
 
-gatsby-source-flamelink@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/gatsby-source-flamelink/-/gatsby-source-flamelink-3.0.0.tgz#578d6fdc6169de69563c5b375c086b9d893af4ea"
-  integrity sha512-Kc8P8i+95EkIGjNzjQHdePy/ZnoP95o1d2sH3ORUKeYBgwSly0nFJogKuMR620n+YNtPVx1VOAT0B0iOV4ntEg==
+gatsby-source-flamelink@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/gatsby-source-flamelink/-/gatsby-source-flamelink-3.0.2.tgz#bc4f23b1c76aad43486064fa578d053e0d092ada"
+  integrity sha512-T8I/bscrHOFYeRMEIyghkPw01EbidvELmo5wOByR4U0QKE2MxmxUFhF2rMYkjE5AsSJKDMO/K8eePMYXZzXkHg==
   dependencies:
     "@babel/runtime" "7.7.7"
     compose-then "1.0.1"
@@ -7722,7 +7722,7 @@ gatsby-source-flamelink@^3.0.0:
     firebase-admin "8.9.0"
     flamelink "1.0.0-alpha.30"
     flat "^5.0.0"
-    lodash "4.17.15"
+    lodash "4.17.19"
     pascalcase "1.0.0"
     present "1.0.0"
 
@@ -10468,12 +10468,7 @@ lodash.uniq@4.5.0, lodash.uniq@^4.5.0:
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
-lodash@4.17.15:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
-
-lodash@^4.0.0, lodash@^4.11.1, lodash@^4.15.0, lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.16, lodash@^4.17.19, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.3.0, lodash@~4.17.10:
+lodash@4.17.19, lodash@^4.0.0, lodash@^4.11.1, lodash@^4.15.0, lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.16, lodash@^4.17.19, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.3.0, lodash@~4.17.10:
   version "4.17.19"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
   integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
