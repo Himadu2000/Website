@@ -16,7 +16,7 @@
     "gatsby-plugin-sharp": "^2.6.27",
     "gatsby-plugin-sitemap": "^2.4.11",
     "gatsby-source-filesystem": "^2.3.24",
-    "gatsby-source-flamelink": "^3.0.0",
+    "gatsby-source-flamelink": "^3.0.2",
     "gatsby-theme-firebase": "^1.0.10",
     "gatsby-transformer-sharp": "^2.5.13",
     "mdbreact": "^4.27.0",
