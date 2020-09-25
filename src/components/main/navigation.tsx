@@ -11,39 +11,66 @@ import React, { useState } from "react"
 
 const NavList = () => (
   <>
-    <Link to="/blog" className="white-text">
-      Blog
-    </Link>{" "}
-    <Link to="/news" className="white-text">
-      News
-    </Link>{" "}
-    <Link to="/articles" className="white-text">
-      Articles
-    </Link>{" "}
-    <Link to="/contact" className="white-text">
-      Contact
-    </Link>{" "}
-    <Link to="/contact" className="white-text">
-      Contact
-    </Link>{" "}
-    <Link to="/contact" className="white-text">
-      Contact
-    </Link>{" "}
-    <Link to="/contact" className="white-text">
-      Contact
-    </Link>{" "}
-    <Link to="/contact" className="white-text">
-      Contact
-    </Link>{" "}
-    <Link to="/contact" className="white-text">
-      Contact
-    </Link>{" "}
-    <Link to="/contact" className="white-text">
-      Contact
-    </Link>{" "}
-    <Link to="/user" className="white-text">
-      User
-    </Link>
+    <MDBNavItem>
+      <Link to="/blog" className="nav-link">
+        Blog
+      </Link>
+    </MDBNavItem>
+    <MDBNavItem>
+      <Link to="/news" className="nav-link">
+        News
+      </Link>
+    </MDBNavItem>
+    <MDBNavItem>
+      <Link to="/articles" className="nav-link">
+        Articles
+      </Link>
+    </MDBNavItem>
+    <MDBNavItem>
+      <Link to="/contact" className="nav-link">
+        Contact
+      </Link>
+    </MDBNavItem>
+    <MDBNavItem>
+      <Link to="/gallery" className="nav-link">
+        Gallery
+      </Link>
+    </MDBNavItem>
+    <MDBNavItem>
+      <Link to="/downloads" className="nav-link">
+        Downloads
+      </Link>
+    </MDBNavItem>
+    <MDBNavItem>
+      <Link to="/donations" className="nav-link">
+        Donations
+      </Link>
+    </MDBNavItem>
+    <MDBNavItem>
+      <Link to="/sitemap" className="nav-link">
+        Sitemap
+      </Link>
+    </MDBNavItem>
+    <MDBNavItem>
+      <Link to="/pp" className="nav-link">
+        PP
+      </Link>
+    </MDBNavItem>
+    <MDBNavItem>
+      <Link to="/tc" className="nav-link">
+        TC
+      </Link>
+    </MDBNavItem>
+    <MDBNavItem>
+      <Link to="/about" className="nav-link">
+        About
+      </Link>
+    </MDBNavItem>
+    <MDBNavItem>
+      <Link to="/user" className="nav-link">
+        User
+      </Link>
+    </MDBNavItem>
   </>
 )
 
@@ -55,21 +82,18 @@ const NavBar = () => {
   }
 
   return (
-    <MDBNavbar color="blue" dark expand="md">
+    <MDBNavbar color="indigo" dark expand="md">
       <MDBNavbarBrand>
-        <strong className="white-text">
-          <Link to="/" style={{ color: "white" }}>
+        <strong>
+          <Link to="/" className="white-text">
             Himadu
           </Link>
         </strong>
       </MDBNavbarBrand>
       <MDBNavbarToggler onClick={toggleCollapse} />
       <MDBCollapse id="navbarCollapse3" isOpen={isOpen} navbar>
-        <MDBNavbarNav left></MDBNavbarNav>
         <MDBNavbarNav right>
-          <MDBNavItem>
-            <NavList />
-          </MDBNavItem>
+          <NavList />
         </MDBNavbarNav>
       </MDBCollapse>
     </MDBNavbar>

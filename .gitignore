@@ -70,3 +70,4 @@ yarn-error.log
 
 #Sample File
 !.env.sample
+!src/components/mdbr.tgz
