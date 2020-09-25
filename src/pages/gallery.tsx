@@ -6,7 +6,11 @@ import SEO from "../components/seo"
 const GalleryPage = () => (
   <Layout>
     <SEO title="Gallery" />
-    <Gallery />
+    {typeof window !== "undefined" ? (
+      <Gallery />
+    ) : (
+      <p>This is a server render...</p>
+    )}
   </Layout>
 )
 
