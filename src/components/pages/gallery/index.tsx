@@ -75,6 +75,13 @@ const LightboxPage = () => {
           }
         }
       }
+      image11: file(relativePath: { eq: "flowers/image11.png" }) {
+        childImageSharp {
+          fluid(maxWidth: 300) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
     }
   `)
 
@@ -108,6 +115,9 @@ const LightboxPage = () => {
     },
     {
       src: data.image10.childImageSharp.fluid.src,
+    },
+    {
+      src: data.image11.childImageSharp.fluid.src,
     },
   ])
 
