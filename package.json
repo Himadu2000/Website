@@ -15,7 +15,7 @@
     "gatsby-plugin-sass": "^2.3.22",
     "gatsby-plugin-sharp": "^2.9.1",
     "gatsby-plugin-sitemap": "^2.8.0",
-    "gatsby-source-filesystem": "^2.6.1",
+    "gatsby-source-filesystem": "^2.7.0",
     "gatsby-source-flamelink": "^3.0.2",
     "gatsby-theme-firebase": "^1.0.10",
     "gatsby-transformer-sharp": "^2.8.0",
