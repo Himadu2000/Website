@@ -5,8 +5,7 @@ name: Firebase CI
 
 on:
   push:
-    branches:
-      - master
+    branches: [main]
 
 jobs:
   build:
@@ -28,7 +27,7 @@ jobs:
       #- run: npm ci
       - run: yarn
       - run: npx gatsby build #--if-present
-      #- run: npm run test
+      #- run: yarn test
       #  env:
       #    CI: true
       - name: Firebase GitHub Action

@@ -5,9 +5,9 @@ name: Node.js CI
 
 on:
   push:
-    branches: [master]
+    branches: [main]
   pull_request:
-    branches: [master]
+    branches: [main]
 
 jobs:
   build:
@@ -15,7 +15,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [12.x,14.x]
+        node-version: [12.x, 14.x]
 
     env:
       FIREBASE_CONFIG_PRIVATE_KEY: ${{ secrets.FIREBASE_CONFIG_PRIVATE_KEY }}
@@ -29,6 +29,6 @@ jobs:
       #- run: npm ci
       - run: yarn
       - run: npx gatsby build #--if-present
-    #- run: npm run test
+    #- run: yarn test
     #  env:
     #    CI: true
