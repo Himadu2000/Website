@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "author": "Himadu Sirimanna",
   "dependencies": {
-    "gatsby": "^2.30.1",
+    "gatsby": "^2.30.2",
     "gatsby-image": "^2.9.0",
     "gatsby-plugin-manifest": "^2.10.0",
     "gatsby-plugin-nprogress": "^2.8.0",
