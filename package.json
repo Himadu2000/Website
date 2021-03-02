@@ -13,7 +13,7 @@
     "gatsby-plugin-react-helmet": "^4.0.0",
     "gatsby-plugin-robots-txt": "^1.5.5",
     "gatsby-plugin-sass": "^4.0.0",
-    "gatsby-plugin-sharp": "^2.14.3",
+    "gatsby-plugin-sharp": "^3.0.0",
     "gatsby-plugin-sitemap": "^3.0.0",
     "gatsby-source-filesystem": "^2.11.1",
     "gatsby-source-flamelink": "^3.0.3",
