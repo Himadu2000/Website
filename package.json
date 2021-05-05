@@ -28,7 +28,7 @@
   },
   "devDependencies": {
     "cross-env": "^7.0.3",
-    "dotenv": "^8.5.1",
+    "dotenv": "^8.6.0",
     "prettier": "2.2.1"
   },
   "keywords": [
