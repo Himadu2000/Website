@@ -14,7 +14,7 @@
     "gatsby-plugin-robots-txt": "^1.6.2",
     "gatsby-plugin-sass": "^4.6.0",
     "gatsby-plugin-sharp": "^3.5.0",
-    "gatsby-plugin-sitemap": "^4.1.0",
+    "gatsby-plugin-sitemap": "^4.2.0",
     "gatsby-source-filesystem": "^3.5.0",
     "gatsby-source-flamelink": "^3.0.4",
     "gatsby-theme-firebase": "^1.0.10",
