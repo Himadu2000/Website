@@ -7558,10 +7558,10 @@ gatsby-plugin-manifest@^3.7.0:
     semver "^7.3.5"
     sharp "^0.28.1"
 
-gatsby-plugin-nprogress@^3.7.0:
-  version "3.7.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-nprogress/-/gatsby-plugin-nprogress-3.7.0.tgz#aac5954cd153923b3fdc0992b858e630d3f431e2"
-  integrity sha512-wmHmjO8TdYo0u7WUAYjW2QY2CZsCLxGIQNHZdoJFKRRi0uvrynUyaWBiIf9aDVno/U3JxzdsWBo+Y2Nu7+tf4Q==
+gatsby-plugin-nprogress@^3.7.1:
+  version "3.7.1"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-nprogress/-/gatsby-plugin-nprogress-3.7.1.tgz#7dd454250eaa06ca93401d1b3e5e0632e3975ec0"
+  integrity sha512-QJFWWiTLTbvZ+LaNDhZGQhbcdLUkSnPeh8V4fnc7ZUfy7aLDq+ffhNyk/cWEt9Tuquc5sJv9yt7MvvlE1HZruA==
   dependencies:
     "@babel/runtime" "^7.14.0"
     nprogress "^0.2.0"
