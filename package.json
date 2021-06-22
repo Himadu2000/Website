@@ -8,7 +8,7 @@
     "gatsby": "^3.7.2",
     "gatsby-image": "^3.8.0",
     "gatsby-plugin-manifest": "^3.7.1",
-    "gatsby-plugin-nprogress": "^3.7.1",
+    "gatsby-plugin-nprogress": "^3.8.0",
     "gatsby-plugin-offline": "^4.7.1",
     "gatsby-plugin-react-helmet": "^4.7.1",
     "gatsby-plugin-robots-txt": "^1.6.2",
