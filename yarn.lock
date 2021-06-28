@@ -7644,12 +7644,12 @@ gatsby-plugin-react-helmet@^4.8.0:
   dependencies:
     "@babel/runtime" "^7.14.0"
 
-gatsby-plugin-robots-txt@^1.6.2:
-  version "1.6.2"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-robots-txt/-/gatsby-plugin-robots-txt-1.6.2.tgz#b120b0a452f77e5ba2724e99425b90504dbc44b7"
-  integrity sha512-TqLCnxldq7goBMrvtzTDWQAcjPUr/CpOUJe7K0NyLfDmP/xb+Ius03SvAdJRm33fyJr+YNjknSspPK7q9OvQYA==
+gatsby-plugin-robots-txt@^1.6.5:
+  version "1.6.5"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-robots-txt/-/gatsby-plugin-robots-txt-1.6.5.tgz#b9be8e12d7b7e7130893008799c411436c4a9276"
+  integrity sha512-zAN9hVG3ucBtkASfQTUK6yKfbeTQiG8VY1+ZWdc2PBBQqvDvXHgUhcgfpkN/Vmx7S1pkqjlccXIotJxzjblReQ==
   dependencies:
-    "@babel/runtime" "^7.11.2"
+    "@babel/runtime" "^7.14.0"
     generate-robotstxt "^8.0.3"
 
 gatsby-plugin-sass@^4.8.0:
