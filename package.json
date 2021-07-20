@@ -6,7 +6,7 @@
   "author": "Himadu Sirimanna",
   "dependencies": {
     "gatsby": "^3.9.1",
-    "gatsby-image": "^3.9.0",
+    "gatsby-image": "^3.10.0",
     "gatsby-plugin-manifest": "^3.9.0",
     "gatsby-plugin-nprogress": "^3.9.0",
     "gatsby-plugin-offline": "^4.9.0",
