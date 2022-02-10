@@ -20,7 +20,7 @@
     "gatsby-theme-firebase": "^1.0.10",
     "gatsby-transformer-sharp": "^3.10.0",
     "mdbreact": "./src/components/mdbr.tgz",
-    "node-sass": "^5.0.0",
+    "node-sass": "^7.0.0",
     "prop-types": "^15.7.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
